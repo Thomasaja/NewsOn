@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/sv_detail_news"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:padding="@dimen/_4sdp"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/iv_detail_news"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_news"
+            android:scaleType="centerCrop"
+            android:layout_height="@dimen/_200sdp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/ll_detail_news"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                app:layout_constraintTop_toBottomOf="@id/iv_detail_news"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/tv_detail_title_news"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    tools:text="The first human in Moon have some surprise, they are confused about Moon"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="@dimen/_2sdp"
+                    android:id="@+id/tv_detail_desc"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp"
+                    android:fontFamily="@font/roboto_medium"
+                    tools:text="for many years had some Human in 1960 landed in moon they surprissed, when they saw some Alien was there before they landed"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

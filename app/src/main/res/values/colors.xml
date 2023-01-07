@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4BC84E</color>
+    <color name="unselected_indicator">#B6AA9E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="bg_app_darker">#D6D6D6</color>
+    <color name="grey">#A9A8A7</color>
+
+</resources>

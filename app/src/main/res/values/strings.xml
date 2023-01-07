@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NewsOn</string>
+    <string name="title_nav_home">Home</string>
+    <string name="title_nav_favorite">Favorite</string>
+    <string name="title_nav_profile">Profile</string>
+    <string name="title_search">Search Favorite</string>
+    <string name="text_menu_about">About Us</string>
+    <string name="tv_signUp">SignUp</string>
+    <string name="text_hint_enter_email">Enter your email</string>
+    <string name="text_hint_enter_user_name">Username (at least 8 characters)</string>
+    <string name="text_hint_password">Create password</string>
+    <string name="tv_continue">Continue</string>
+    <string name="text_to_login">Join us before?</string>
+    <string name="text_navigate_to_login">Login</string>
+    <string name="tv_signIn">Sign In</string>
+    <string name="tv_login">Login</string>
+    <string name="text_to_register">Don\'t have an account yet?</string>
+    <string name="text_navigate_to_register">Register</string>
+    <string name="text_title_home">Popular around the World</string>
+    <string name="tv_title_profile">PROFILE</string>
+    <string name="text_edit_profile">Edit Profile</string>
+    <string name="text_logout">Logout</string>
+</resources>
