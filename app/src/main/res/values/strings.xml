@@ -20,4 +20,9 @@
     <string name="tv_title_profile">PROFILE</string>
     <string name="text_edit_profile">Edit Profile</string>
     <string name="text_logout">Logout</string>
+    <string name="text_edit_profile_title">Edit Profile</string>
+    <string name="text_change_profile_photo">Change Photo</string>
+    <string name="text_edit_username">Username</string>
+    <string name="text_edit_hint_email">Email</string>
+    <string name="text_edit_save">SAVE</string>
 </resources>

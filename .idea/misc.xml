@@ -16,13 +16,14 @@
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/drawable/ic_search.xml" value="0.1" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/font/font.xml" value="0.17314814814814813" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/activity_details.xml" value="0.2" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/activity_edit_profile.xml" value="0.176" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/activity_register.xml" value="0.10400000000000001" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/activity_splash_screen.xml" value="0.2484375" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/colors.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/fragment_home.xml" value="0.264" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/fragment_profile.xml" value="0.136" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/fragment_profile.xml" value="0.176" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/item_list_favorite_news.xml" value="0.176" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/item_list_news.xml" value="0.2" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/menu/ic_home_navigation.xml" value="0.22777777777777777" />
