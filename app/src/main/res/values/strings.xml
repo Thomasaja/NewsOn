@@ -25,4 +25,6 @@
     <string name="text_edit_username">Username</string>
     <string name="text_edit_hint_email">Email</string>
     <string name="text_edit_save">SAVE</string>
+    <string name="text_favorite">Favorite News</string>
+    <string name="text_search_favorite">Search favorite</string>
 </resources>
