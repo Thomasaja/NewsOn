@@ -27,5 +27,10 @@
     <string name="text_edit_save">SAVE</string>
     <string name="text_favorite">Favorite News</string>
     <string name="text_search_favorite">Search favorite</string>
+    <string name="error_email">Please input your email address</string>
+    <string name="invalid_email">Email is Invalid</string>
+    <string name="error_password">Please input your Password</string>
+    <string name="text_succes_login">Login Success</string>
+    <string name="text_error_login">Login Failed, Please check your email or password !</string>
     <string name="text_title_intro_first">Get<font color="#4BC84E"> The most popular Information \n</font>around the World</string>
 </resources>

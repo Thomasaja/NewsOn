@@ -1,6 +1,8 @@
 package com.cimot.newson.di
 
 import com.cimot.newson.base.arch.GenericViewModelFactory
+import com.cimot.newson.ui.feature.login.LoginPageRepository
+import com.cimot.newson.ui.feature.login.LoginPageViewModel
 import com.cimot.newson.ui.splash.SplashScreenRepository
 import com.cimot.newson.ui.splash.SplashScreenViewModel
 import dagger.Module
@@ -18,5 +20,15 @@ object ViewModelModule {
     fun provideSplashScreenViewModel(splashScreenRepository: SplashScreenRepository): SplashScreenViewModel {
         return GenericViewModelFactory(SplashScreenViewModel(splashScreenRepository))
             .create(SplashScreenViewModel::class.java)
+    }
+
+    @Provides
+    @ActivityScoped
+    fun provideLoginPageViewModel(
+        repository: LoginPageRepository
+    ):LoginPageViewModel{
+        return GenericViewModelFactory(LoginPageViewModel(repository)).create(
+            LoginPageViewModel::class.java
+        )
     }
 }
