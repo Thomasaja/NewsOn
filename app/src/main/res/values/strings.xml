@@ -33,4 +33,9 @@
     <string name="text_succes_login">Login Success</string>
     <string name="text_error_login">Login Failed, Please check your email or password !</string>
     <string name="text_title_intro_first">Get<font color="#4BC84E"> The most popular Information \n</font>around the World</string>
+    <string name="error_email_empty">Email is empty</string>
+    <string name="error_email_invalid">Email is invalid</string>
+    <string name="error_password_empty">Password is empty</string>
+    <string name="error_username_empty">Username is empty</string>
+    <string name="text_register_success">Register successed</string>
 </resources>

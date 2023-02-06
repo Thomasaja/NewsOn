@@ -3,6 +3,8 @@ package com.cimot.newson.di
 import com.cimot.newson.base.arch.GenericViewModelFactory
 import com.cimot.newson.ui.feature.login.LoginPageRepository
 import com.cimot.newson.ui.feature.login.LoginPageViewModel
+import com.cimot.newson.ui.feature.register.RegisterRepository
+import com.cimot.newson.ui.feature.register.RegisterViewModel
 import com.cimot.newson.ui.splash.SplashScreenRepository
 import com.cimot.newson.ui.splash.SplashScreenViewModel
 import dagger.Module
@@ -29,6 +31,16 @@ object ViewModelModule {
     ):LoginPageViewModel{
         return GenericViewModelFactory(LoginPageViewModel(repository)).create(
             LoginPageViewModel::class.java
+        )
+    }
+
+    @Provides
+    @ActivityScoped
+    fun provideRegisterViewModel(
+        registerRepository: RegisterRepository
+    ): RegisterViewModel {
+        return GenericViewModelFactory(RegisterViewModel(registerRepository)).create(
+            RegisterViewModel::class.java
         )
     }
 }
