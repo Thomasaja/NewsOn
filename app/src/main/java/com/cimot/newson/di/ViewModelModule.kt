@@ -1,6 +1,8 @@
 package com.cimot.newson.di
 
 import com.cimot.newson.base.arch.GenericViewModelFactory
+import com.cimot.newson.ui.feature.home.detail.DetailRepository
+import com.cimot.newson.ui.feature.home.detail.DetailViewModel
 import com.cimot.newson.ui.feature.login.LoginPageRepository
 import com.cimot.newson.ui.feature.login.LoginPageViewModel
 import com.cimot.newson.ui.feature.register.RegisterRepository
@@ -12,6 +14,7 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.scopes.ActivityScoped
 import dagger.hilt.components.SingletonComponent
+import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
@@ -41,6 +44,14 @@ object ViewModelModule {
     ): RegisterViewModel {
         return GenericViewModelFactory(RegisterViewModel(registerRepository)).create(
             RegisterViewModel::class.java
+        )
+    }
+
+    @Provides
+    @Singleton
+    fun provideDetailViewModel(detailRepository: DetailRepository):DetailViewModel{
+        return GenericViewModelFactory(DetailViewModel(detailRepository)).create(
+            DetailViewModel::class.java
         )
     }
 }

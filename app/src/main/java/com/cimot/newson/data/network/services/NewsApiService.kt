@@ -4,6 +4,7 @@ import com.chuckerteam.chucker.api.ChuckerInterceptor
 import com.cimot.newson.BuildConfig
 import com.cimot.newson.BuildConfig.API_KEY
 import com.cimot.newson.data.model.response.news.NewsResponse
+import com.cimot.newson.data.model.response.news.details.Article
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -20,6 +21,12 @@ interface NewsApiService {
         @Query("apiKey") key:String = BuildConfig.API_KEY,
         @Query("number") number: Int = 100
     ):NewsResponse
+
+    @GET("{newsId}/information")
+    suspend fun getNewsDetail(
+        @Path("newsId")newsId: String,
+        @Query("apiKey")key:String = BuildConfig.API_KEY,
+    ):Article
 
 
     companion object{
