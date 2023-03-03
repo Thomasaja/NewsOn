@@ -16,6 +16,6 @@ interface FavoriteNewsDao {
     @Query("SELECT * FROM favNews")
     suspend fun getAllFavoriteNews():List<FavoriteNews>
 
-    @Query("SELECT * FROM favNews WHERE name LIKE :searchQuery")
+    @Query("SELECT * FROM favNews WHERE title LIKE :searchQuery")
     suspend fun searchFavoriteNews(searchQuery :String):List<FavoriteNews>
 }

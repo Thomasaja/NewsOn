@@ -93,7 +93,7 @@ class LoginPageActivity :
                 }
                 is Resource.Success -> {
                     showLoading(false)
-                    Toast.makeText(this, R.string.text_succes_login, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, R.string.text_success_login, Toast.LENGTH_SHORT).show()
                 }
                 is Resource.Error -> {
                     showLoading(false)

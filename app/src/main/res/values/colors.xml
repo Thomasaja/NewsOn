@@ -6,5 +6,6 @@
     <color name="black">#000000</color>
     <color name="bg_app_darker">#D6D6D6</color>
     <color name="grey">#A9A8A7</color>
+    <color name="bg_splash_color">#6A5FF3</color>
 
 </resources>

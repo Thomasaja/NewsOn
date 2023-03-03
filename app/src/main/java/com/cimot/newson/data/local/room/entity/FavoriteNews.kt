@@ -11,8 +11,8 @@ import kotlinx.parcelize.Parcelize
 data class FavoriteNews(
     @PrimaryKey
     var title:String? = null,
-    @ColumnInfo(name = "name")
-    var name:String? = null,
+    @ColumnInfo(name = "image")
+    var image:String? = null,
     @ColumnInfo(name = "description")
     var description:String? = null
 
