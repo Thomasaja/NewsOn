@@ -70,7 +70,7 @@
                 <TextView
                     android:id="@+id/tv_change_profile_picture"
                     android:layout_width="wrap_content"
-                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_12sdp"
                     android:fontFamily="@font/roboto_medium"

@@ -20,6 +20,7 @@
     <string name="tv_title_profile">PROFILE</string>
     <string name="text_edit_profile">Edit Profile</string>
     <string name="text_logout">Logout</string>
+    <string name="text_change_profile_success">Change Profile Success !</string>
     <string name="text_edit_profile_title">Edit Profile</string>
     <string name="text_change_profile_photo">Change Photo</string>
     <string name="text_edit_username">Username</string>
@@ -28,9 +29,14 @@
     <string name="text_favorite">Favorite News</string>
     <string name="text_search_favorite">Search favorite</string>
     <string name="error_email">Please input your email address</string>
+    <string name="text_logout_successful">Logout Successful</string>
+    <string name="text_logout_profile">Logout Profile</string>
+    <string name="text_logout_confirmation">Are you sure you want to log out?</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="username_string">\@%s</string>
     <string name="invalid_email">Email is Invalid</string>
     <string name="error_password">Please input your Password</string>
-    <string name="text_succes_login">Login Success</string>
+    <string name="text_success_login">Login Success</string>
     <string name="text_error_login">Login Failed, Please check your email or password !</string>
     <string name="text_title_intro_first">Get<font color="#4BC84E"> The most popular Information \n</font>around the World</string>
     <string name="error_email_empty">Email is empty</string>
@@ -38,4 +44,5 @@
     <string name="error_password_empty">Password is empty</string>
     <string name="error_username_empty">Username is empty</string>
     <string name="text_register_success">Register successed</string>
+    <string name="success_deleted_fav_news">Success deleted favorite news!</string>
 </resources>

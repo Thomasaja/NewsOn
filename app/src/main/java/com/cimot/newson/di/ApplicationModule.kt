@@ -20,23 +20,24 @@ object ApplicationModule {
     @Singleton
     fun provideDataBase(@ApplicationContext context: Context) =
         Room.databaseBuilder(context, FavNewsDatabase::class.java, "favorite_news_db").build()
-}
 
-@Singleton
-@Provides
-fun provideDao(database: FavNewsDatabase) = database.favoriteNewsDao()
 
-@Singleton
-@Provides
-fun provideSessionPreference(
-    @ApplicationContext context: Context,
-    gson: Gson
-): SessionPreference {
-    return SessionPreference(context, gson)
-}
+    @Singleton
+    @Provides
+    fun provideDao(database: FavNewsDatabase) = database.favoriteNewsDao()
 
-@Singleton
-@Provides
-fun provideGson(): Gson {
-    return Gson()
+    @Singleton
+    @Provides
+    fun provideSessionPreference(
+        @ApplicationContext context: Context,
+        gson: Gson
+    ): SessionPreference {
+        return SessionPreference(context, gson)
+    }
+
+    @Singleton
+    @Provides
+    fun provideGson(): Gson {
+        return Gson()
+    }
 }

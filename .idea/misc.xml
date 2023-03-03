@@ -9,10 +9,12 @@
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.1" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/drawable/ic_baseline_favorite.xml" value="0.1" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/drawable/ic_baseline_favorite_border.xml" value="0.1" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/drawable/ic_edit_profile.xml" value="0.2555" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/drawable/ic_favorite_navigation.xml" value="0.2415" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/drawable/ic_home_navigation.xml" value="0.1" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/drawable/ic_placeholder_profile.xml" value="0.1" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/drawable/ic_profile_blank.xml" value="0.2555" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/drawable/ic_profile_navigation.xml" value="0.173" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/drawable/ic_search.xml" value="0.1" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/font/font.xml" value="0.17314814814814813" />
@@ -25,8 +27,8 @@
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/colors.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/fragment_favorite_news.xml" value="0.14814814814814814" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/fragment_home.xml" value="0.264" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/fragment_profile.xml" value="0.136" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/item_list_favorite_news.xml" value="0.176" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/fragment_profile.xml" value="0.176" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/item_list_favorite_news.xml" value="0.6" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/item_list_news.xml" value="0.2" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/layout/layout_intro.xml" value="0.10400000000000001" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/menu/ic_home_navigation.xml" value="0.22777777777777777" />
@@ -36,6 +38,11 @@
         <entry key="..\:/Users/asus/AndroidStudioProjects/NewsOn/app/src/main/res/menu/menu_top_home.xml" value="0.25" />
       </map>
     </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="dagger.Module" />
+    </list>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

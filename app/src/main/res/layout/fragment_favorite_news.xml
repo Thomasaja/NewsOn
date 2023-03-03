@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_favorite">
 
         <EditText
-            android:id="@+id/et_search_favorite_recipe"
+            android:id="@+id/et_search_favorite_news"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_38sdp"
             android:background="@color/white"
