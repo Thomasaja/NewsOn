@@ -10,7 +10,6 @@ import com.cimot.newson.R
 import com.cimot.newson.base.arch.BaseActivity
 import com.cimot.newson.base.model.Resource
 import com.cimot.newson.data.local.room.entity.FavoriteNews
-import com.cimot.newson.data.model.response.news.details.Article
 import com.cimot.newson.databinding.ActivityDetailsBinding
 import dagger.hilt.android.AndroidEntryPoint
 

@@ -6,7 +6,7 @@
     android:layout_margin="@dimen/_4sdp"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <androidx.cardview.widget.CardView
+   <!-- <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:id="@+id/cv_list_image"
         app:cardCornerRadius="@dimen/_10sdp"
@@ -23,7 +23,7 @@
             android:src="@drawable/ic_news"
             android:layout_height="@dimen/_100sdp"/>
 
-    </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
         android:layout_marginTop="@dimen/_2sdp"
         android:gravity="center_vertical"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/cv_list_image"
+        app:layout_constraintTop_toBottomOf="@id/ll_source"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_height="wrap_content">
@@ -44,10 +44,11 @@
             android:fontFamily="@font/roboto_bold"
             android:textColor="@color/black"
             android:textSize="@dimen/_12ssp"
+            android:maxLines="4"
             tools:text="The first human in Moon have some surprise, they are confused about Moon"
             android:layout_height="wrap_content"/>
 
-        <androidx.cardview.widget.CardView
+       <!-- <androidx.cardview.widget.CardView
             android:id="@+id/cv_desc"
             android:layout_marginTop="@dimen/_4sdp"
             android:layout_marginEnd="@dimen/_10sdp"
@@ -65,7 +66,7 @@
                 android:fontFamily="@font/roboto_medium"
                 tools:text="for many years had some Human in 1960 landed in moon they surprissed, when they saw some Alien was there before they landed"
                 android:layout_height="wrap_content"/>
-        </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>-->
     </LinearLayout>
 
     <LinearLayout
@@ -73,7 +74,7 @@
         android:id="@+id/ll_source"
         android:layout_marginTop="@dimen/_2sdp"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/ll_list"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_height="wrap_content">
@@ -93,6 +94,14 @@
             android:textColor="@color/black"
             android:maxLines="1"
             tools:text="Anonymous"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_pages"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            tools:text = "12"
             android:layout_height="wrap_content"/>
 
     </LinearLayout>

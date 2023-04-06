@@ -7,7 +7,6 @@ import androidx.lifecycle.viewModelScope
 import com.cimot.newson.base.arch.BaseViewModelImpl
 import com.cimot.newson.base.model.Resource
 import com.cimot.newson.data.local.room.entity.FavoriteNews
-import com.cimot.newson.data.model.response.news.details.Article
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -20,7 +19,7 @@ class DetailViewModel @Inject constructor(private val repository: DetailReposito
 
     private val newsId = MutableLiveData<String>()
     private val newsDetailLiveData = MutableLiveData<Resource<Article>>()
-    private val insertNewsLiveData = MutableLiveData<Resource<String>>()
+    private val insertNewsLiveData = MutableLiveData<Resource<Long>>()
 
     override fun insertNewsFavorite(favNews: FavoriteNews) {
         insertNewsLiveData.value = Resource.Loading()

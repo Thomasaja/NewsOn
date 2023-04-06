@@ -44,9 +44,9 @@ android {
     productFlavors {
         production {
             dimension = 'default'
-            buildConfigField("String", "BASE_URL_NEWS", "\"https://gnews.io/api/v4/\"")
+            buildConfigField("String", "BASE_URL_NEWS", "\"https://content.guardianapis.com/search?\"")
             buildConfigField("String", "BASE_URL_BINAR_AUTH", "\"https://binar-gdd-cc8.herokuapp.com/api/v1/\"")
-            buildConfigField("String", "API_KEY", "\"22a5268a83a0fff2652743d767ca542f\"")
+            buildConfigField("String", "API_KEY", "\"5243d538-6a3a-4ba5-8a27-91feac3ceb5d\"")
         }
     }
 }

@@ -4,21 +4,21 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.cimot.newson.data.model.response.news.details.Article
+import com.cimot.newson.data.model.response.news.News
 import com.cimot.newson.databinding.ItemListNewsBinding
 
-class HomeAdapter(private val itemClick: (Article) -> Unit) :
+class HomeAdapter(private val itemClick: (News) -> Unit) :
     RecyclerView.Adapter<HomeAdapter.HomeViewHolder>() {
 
-    private var items: MutableList<Article> = mutableListOf()
+    private var items: MutableList<News> = mutableListOf()
 
-    fun setItems(items: List<Article>) {
+    fun setItems(items: List<News>) {
         clearItems()
         addItems(items)
         notifyDataSetChanged()
     }
 
-    fun addItems(items: List<Article>) {
+    fun addItems(items: List<News>) {
         this.items.addAll(items)
         notifyDataSetChanged()
     }
@@ -39,14 +39,14 @@ class HomeAdapter(private val itemClick: (Article) -> Unit) :
 
     override fun getItemCount(): Int = items.size
 
-    class HomeViewHolder(private val binding: ItemListNewsBinding, val itemClick: (Article) -> Unit) :
+    class HomeViewHolder(private val binding: ItemListNewsBinding, val itemClick: (News) -> Unit) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bindView(item: Article) {
+        fun bindView(item: News) {
             with(item) {
                 itemView.setOnClickListener { itemClick(this) }
                 binding.ivNews.load(image)
-                binding.tvTitleNews.text = title
                 binding.tvDesc.text = description
+                binding.tvName.text = orderBy
             }
         }
     }

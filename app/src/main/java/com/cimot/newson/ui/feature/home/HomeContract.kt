@@ -4,8 +4,6 @@ import androidx.lifecycle.LiveData
 import com.cimot.newson.base.arch.BaseContract
 import com.cimot.newson.base.model.Resource
 import com.cimot.newson.data.model.response.auth.User
-import com.cimot.newson.data.model.response.news.NewsResponse
-import com.cimot.newson.data.model.response.news.details.Article
 
 interface HomeContract {
     interface View : BaseContract.BaseView {

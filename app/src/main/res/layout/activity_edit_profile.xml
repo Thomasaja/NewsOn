@@ -21,7 +21,7 @@
                 android:id="@+id/cv_button_back"
                 android:layout_width="@dimen/_36sdp"
                 android:layout_height="@dimen/_36sdp"
-                app:Background="@color/bg_app_darker"
+                android:background="@color/bg_app_darker"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent">

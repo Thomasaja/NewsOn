@@ -6,9 +6,6 @@ import androidx.lifecycle.viewModelScope
 import com.cimot.newson.base.arch.BaseViewModelImpl
 import com.cimot.newson.base.model.Resource
 import com.cimot.newson.data.model.response.auth.User
-import com.cimot.newson.data.model.response.news.NewsResponse
-import com.cimot.newson.data.model.response.news.details.Article
-import com.cimot.newson.data.network.datasource.news.NewsDataSource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

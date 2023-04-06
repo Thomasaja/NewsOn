@@ -5,11 +5,11 @@ import com.cimot.newson.data.local.room.entity.FavoriteNews
 import javax.inject.Inject
 
 class FavoriteNewsDataSourceImpl @Inject constructor(private val dao:FavoriteNewsDao):FavoriteNewsDataSource{
-    override suspend fun insertFavoriteNews(favNews: FavoriteNews): String {
+    override suspend fun insertFavoriteNews(favNews: FavoriteNews): Int {
         return dao.insertFavoriteNews(favNews)
     }
 
-    override suspend fun deleteFavoriteNews(favNews: FavoriteNews): String {
+    override suspend fun deleteFavoriteNews(favNews: FavoriteNews): Int {
         return dao.deleteFavoriteNews(favNews)
     }
 

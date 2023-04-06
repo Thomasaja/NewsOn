@@ -8,14 +8,14 @@ import com.cimot.newson.data.local.room.entity.FavoriteNews
 interface FavoriteNewsDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertFavoriteNews(favNews : FavoriteNews):String
+    suspend fun insertFavoriteNews(favNews : FavoriteNews):Int
 
     @Delete
-    suspend fun deleteFavoriteNews(favNews : FavoriteNews):String
+    suspend fun deleteFavoriteNews(favNews : FavoriteNews):Int
 
     @Query("SELECT * FROM favNews")
     suspend fun getAllFavoriteNews():List<FavoriteNews>
 
-    @Query("SELECT * FROM favNews WHERE title LIKE :searchQuery")
+    @Query("SELECT * FROM favNews WHERE orderBy LIKE :searchQuery")
     suspend fun searchFavoriteNews(searchQuery :String):List<FavoriteNews>
 }

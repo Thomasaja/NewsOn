@@ -5,8 +5,6 @@ import androidx.lifecycle.LiveData
 import com.cimot.newson.base.arch.BaseContract
 import com.cimot.newson.base.model.Resource
 import com.cimot.newson.data.local.room.entity.FavoriteNews
-import com.cimot.newson.data.model.response.news.details.Article
-import com.cimot.newson.data.model.response.news.NewsResponse
 
 interface DetailContract {
 
@@ -24,7 +22,7 @@ interface DetailContract {
     }
 
     interface Repository  : BaseContract.BaseRepository {
-        suspend fun insertNewsFavorite(favNews: FavoriteNews) : String
+        suspend fun insertNewsFavorite(favNews: FavoriteNews) : Long
         suspend fun getNewsDetail(id: String): Article
     }
 }

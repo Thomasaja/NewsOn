@@ -2,13 +2,11 @@ package com.cimot.newson.data.network.services
 
 import com.chuckerteam.chucker.api.ChuckerInterceptor
 import com.cimot.newson.BuildConfig
-import com.cimot.newson.BuildConfig.API_KEY
 import com.cimot.newson.data.model.response.news.NewsResponse
-import com.cimot.newson.data.model.response.news.details.Article
+import com.cimot.newson.data.model.response.news.details.NewsDetails
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
@@ -26,7 +24,7 @@ interface NewsApiService {
     suspend fun getNewsDetail(
         @Path("newsId")newsId: String,
         @Query("apiKey")key:String = BuildConfig.API_KEY,
-    ):Article
+    ):NewsDetails
 
 
     companion object{

@@ -31,9 +31,9 @@
                 <ImageView
                     android:id="@+id/iv_favorite_news"
                     android:layout_width="@dimen/_96sdp"
+                    android:src="@drawable/ic_news"
                     android:layout_height="@dimen/_64sdp"
-                    android:scaleType="center"
-                    tools:src="@color/bg_app_darker" />
+                    android:scaleType="center" />
 
             </com.google.android.material.card.MaterialCardView>
 
@@ -44,25 +44,27 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tv_title_favorite_news"
+                    android:id="@+id/tv_order_news"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_10sdp"
                     android:layout_marginEnd="@dimen/_12sdp"
                     android:fontFamily="@font/roboto_medium"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/_12ssp" />
+                    android:textSize="@dimen/_12ssp"
+                    tools:text="Thomas" />
 
                 <TextView
-                    android:id="@+id/tv_type_favorite_news"
+                    android:id="@+id/tv_pages"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_10sdp"
                     android:layout_marginTop="@dimen/_7sdp"
+                    android:layout_marginEnd="@dimen/_12sdp"
                     android:fontFamily="@font/roboto_regular"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_10ssp"
-                    android:layout_marginEnd="@dimen/_12sdp" />
+                    tools:text="12" />
 
             </LinearLayout>
         </LinearLayout>

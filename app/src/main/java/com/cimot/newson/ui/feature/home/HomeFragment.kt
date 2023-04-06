@@ -1,11 +1,9 @@
 package com.cimot.newson.ui.feature.home
 
-import androidx.core.content.ContextCompat.startActivity
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.GridLayoutManager
 import com.cimot.newson.base.arch.BaseFragment
 import com.cimot.newson.base.model.Resource
-import com.cimot.newson.data.model.response.news.details.Article
 import com.cimot.newson.databinding.FragmentHomeBinding
 import com.cimot.newson.ui.feature.home.detail.DetailActivity
 import dagger.hilt.android.AndroidEntryPoint
